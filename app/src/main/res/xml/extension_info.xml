@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ExtensionInfo
     displayName="@string/extension_name"
-    icon="@drawable/ic_launcher_foreground"
-    id="template-id"
+    icon="@drawable/ic_toolbox_launcher"
+    id="toms-toolbox"
     scansDevices="false">
-    <!-- DataType ... -->
+    <DataType
+        typeId="battery_check"
+        displayName="@string/battery_check_title"
+        description="@string/battery_check_desc"
+        graphical="true" />
+    <DataType
+        typeId="battery_list"
+        displayName="@string/battery_list_title"
+        description="@string/battery_list_desc"
+        graphical="true" />
+    <DataType
+        typeId="hydration_tracker"
+        displayName="@string/hydration_tracker_title"
+        description="@string/hydration_tracker_desc"
+        graphical="true" />
 </ExtensionInfo>

@@ -1,5 +1,11 @@
 <resources>
-    <string name="app_name">template</string>
-    <string name="hello_karoo">Hello Karoo!</string>
-    <string name="extension_name">template</string>
+    <string name="app_name">Toms Toolbox</string>
+    <string name="hello_karoo">Toms Toolbox</string>
+    <string name="extension_name">Toms Toolbox</string>
+    <string name="battery_check_title">Battery Check</string>
+    <string name="battery_check_desc">Quick status (OK / LOW: Sensor) for all connected batteries</string>
+    <string name="battery_list_title">Battery List</string>
+    <string name="battery_list_desc">Detailed overview of all sensors with % battery &amp; remaining runtime estimates</string>
+    <string name="hydration_tracker_title">Smart Hydration</string>
+    <string name="hydration_tracker_desc">Dynamic hydration reminder &amp; fluid tracker based on temp, power &amp; HR</string>
 </resources>

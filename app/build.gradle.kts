@@ -40,4 +40,6 @@ dependencies {
     implementation(libs.bundles.androidx.lifeycle)
     implementation(libs.androidx.activity.compose)
     implementation(libs.bundles.compose.ui)
+    implementation(libs.androidx.glance.appwidget)
+    implementation(libs.androidx.glance.preview)
 }

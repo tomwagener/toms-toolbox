@@ -4,9 +4,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/ic_toolbox_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/ic_toolbox_launcher"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat">
         <activity
@@ -19,7 +19,7 @@
         </activity>
 
         <service
-            android:name=".extension.TemplateExtension"
+            android:name=".extension.TomsToolboxExtension"
             android:exported="true"
             tools:ignore="ExportedService">
             <intent-filter>
@@ -29,6 +29,14 @@
                 android:name="io.hammerhead.karooext.EXTENSION_INFO"
                 android:resource="@xml/extension_info" />
         </service>
+        <receiver
+            android:name=".extension.HydrationReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="io.hammerhead.karooexttemplate.ACTION_LOG_SIP" />
+                <action android:name="io.hammerhead.karooexttemplate.ACTION_LOG_BOTTLE" />
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>
