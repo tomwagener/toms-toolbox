@@ -3,7 +3,8 @@
     displayName="@string/extension_name"
     icon="@drawable/ic_toolbox_launcher"
     id="toms-toolbox"
-    scansDevices="false">
+    scansDevices="false"
+    fitFile="true">
     <DataType
         typeId="battery_check"
         displayName="@string/battery_check_title"
